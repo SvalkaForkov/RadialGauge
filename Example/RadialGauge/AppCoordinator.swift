@@ -15,8 +15,7 @@ class AppCoordinator {
 	}
 
 	private func presentHomeScreen() {
-		let homePresenter = HomePresenter()
-		let launchViewController = HomeViewController(homePresenter: homePresenter)
+		let launchViewController = HomeViewController()
 		navigationController.pushViewController(launchViewController, animated: false)
 	}
 

@@ -10,8 +10,6 @@ class SimpleRadialGaugeRenderer {
 	var startAngle: CGFloat = -CGFloat(245).toRadians()
 	var endAngle: CGFloat = CGFloat(65).toRadians()
 
-//	private (set) var thumbAngle: CGFloat = CGFloat(-Double.pi) * 11 / 8
-
 	private var offset: CGFloat {
 		return max(thumbLength, lineWidth)
 	}
@@ -55,18 +53,6 @@ class SimpleRadialGaugeRenderer {
 
 	init() {
 		styleLayers()
-	}
-
-	private func styleLayers() {
-		setThumbStrokeColor()
-		thumbLayer.fillColor = UIColor.clear.cgColor
-
-		setCommonTracksStyle(layer: backgroundTrackLayer)
-		setCommonTracksStyle(layer: progressTrackLayer)
-		setBackgroundTrackStrokeColor()
-		setProgressTrackStrokeColor()
-		setBackgroundTrackLineWidth()
-		setProgressTrackLineWidth()
 	}
 
 	func updateTrackLayers() {
@@ -128,6 +114,18 @@ class SimpleRadialGaugeRenderer {
 			clockwise: true)
 		layer.setNeedsLayout()
 		layer.path = ring.cgPath
+	}
+
+	private func styleLayers() {
+		setThumbStrokeColor()
+		thumbLayer.fillColor = UIColor.clear.cgColor
+
+		setCommonTracksStyle(layer: backgroundTrackLayer)
+		setCommonTracksStyle(layer: progressTrackLayer)
+		setBackgroundTrackStrokeColor()
+		setProgressTrackStrokeColor()
+		setBackgroundTrackLineWidth()
+		setProgressTrackLineWidth()
 	}
 
 	private func setBackgroundTrackStrokeColor() {

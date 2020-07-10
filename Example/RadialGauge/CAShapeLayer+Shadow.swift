@@ -1,9 +1,19 @@
-//
-//  CAShapeLayer+Shadow.swift
-//  RadialGauge_Example
-//
-//  Created by Bozidar Labas on 10/07/2020.
-//  Copyright © 2020 CocoaPods. All rights reserved.
-//
+import UIKit
 
-import Foundation
+extension CAShapeLayer {
+
+	func dropShadow(
+		color: UIColor = .gray,
+		offSet: CGSize = CGSize(width: 0, height: 5),
+		radius: CGFloat = 22,
+		opacity: Float = 1
+	) {
+		shadowColor = color.cgColor
+		shadowOpacity = opacity
+		shadowOffset = offSet
+		shadowRadius = radius
+		shouldRasterize = true
+		rasterizationScale = UIScreen.main.scale
+	}
+
+}

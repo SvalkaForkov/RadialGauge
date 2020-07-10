@@ -14,7 +14,7 @@ radialGauge.setProgressTrackValue(50)
 */
 class SimpleRadialGauge: UIView {
 
-	var radialGaugeRenderer: RadialGaugeRenderer!
+	var radialGaugeRenderer: SimpleRadialGaugeRenderer!
 	var gestureRecognizer: RotationGestureRecognizer!
 
 	/** Minimum value of radial gauge. */

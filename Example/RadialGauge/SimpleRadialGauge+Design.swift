@@ -5,22 +5,17 @@ extension SimpleRadialGauge {
 	func buildViews() {
 		createViews()
 		styleViews()
-		defineLayoutForViews()
 	}
 
 	func createViews() {
-		radialGaugeRenderer = RadialGaugeRenderer()
+		radialGaugeRenderer = SimpleRadialGaugeRenderer()
 		layer.addSublayer(radialGaugeRenderer.backgroundTrackLayer)
 		layer.addSublayer(radialGaugeRenderer.progressTrackLayer)
 		layer.addSublayer(radialGaugeRenderer.thumbLayer)
 	}
 
 	func styleViews() {
-		radialGaugeRenderer.thumbLayer.dropRadialGaugeShadow()
-	}
-
-	func defineLayoutForViews() {
-		
+		radialGaugeRenderer.thumbLayer.dropShadow()
 	}
 
 }

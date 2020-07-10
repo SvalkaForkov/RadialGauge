@@ -13,23 +13,18 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9D4632F76E6C9DC55317E297 /* Pods_RadialGauge_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCEF68D9708E693BB9A725A /* Pods_RadialGauge_Example.framework */; };
-		A54179E524B87B0000C49B83 /* HomeCell+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179E324B87B0000C49B83 /* HomeCell+Design.swift */; };
-		A54179E624B87B0000C49B83 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179E424B87B0000C49B83 /* HomeCell.swift */; };
 		A54179EA24B87B0F00C49B83 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179E724B87B0F00C49B83 /* HomeViewController.swift */; };
-		A54179EB24B87B0F00C49B83 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179E824B87B0F00C49B83 /* HomePresenter.swift */; };
 		A54179EC24B87B0F00C49B83 /* HomeViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179E924B87B0F00C49B83 /* HomeViewController+Design.swift */; };
-		A54179F124B87B1A00C49B83 /* RadialGaugeViewController+RadialGaugeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179ED24B87B1A00C49B83 /* RadialGaugeViewController+RadialGaugeDelegate.swift */; };
-		A54179F224B87B1A00C49B83 /* RadialGaugeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179EE24B87B1A00C49B83 /* RadialGaugeViewController.swift */; };
-		A54179F324B87B1A00C49B83 /* RadialGaugeViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179EF24B87B1A00C49B83 /* RadialGaugeViewController+Design.swift */; };
-		A54179F424B87B1A00C49B83 /* RadialGaugePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179F024B87B1A00C49B83 /* RadialGaugePresenter.swift */; };
 		A54179F824B87BB200C49B83 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179F724B87BB200C49B83 /* AppCoordinator.swift */; };
 		A54179FA24B87BD500C49B83 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179F924B87BD500C49B83 /* AppColors.swift */; };
-		A54179FD24B87C1800C49B83 /* RadialGaugeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179FC24B87C1800C49B83 /* RadialGaugeViewModel.swift */; };
-		A54179FF24B87C4400C49B83 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179FE24B87C4400C49B83 /* UIView+Constraints.swift */; };
-		A5417A0224B87C6200C49B83 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A0124B87C6200C49B83 /* Array+Extension.swift */; };
-		A5417A0424B87C6D00C49B83 /* RadialGaugeConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A0324B87C6D00C49B83 /* RadialGaugeConfigViewModel.swift */; };
-		A5417A0624B87C7400C49B83 /* AppLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A0524B87C7300C49B83 /* AppLayout.swift */; };
-		A5417A0824B87C7B00C49B83 /* RadialGaugeThumbViiewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A0724B87C7B00C49B83 /* RadialGaugeThumbViiewModel.swift */; };
+		A54179FF24B87C4400C49B83 /* CGFloat+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54179FE24B87C4400C49B83 /* CGFloat+Radians.swift */; };
+		A5417A0F24B882AD00C49B83 /* SimpleRadialGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A0B24B882AD00C49B83 /* SimpleRadialGauge.swift */; };
+		A5417A1024B882AD00C49B83 /* SimpleRadialGauge+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A0C24B882AD00C49B83 /* SimpleRadialGauge+Gesture.swift */; };
+		A5417A1124B882AD00C49B83 /* SimpleRadialGauge+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A0D24B882AD00C49B83 /* SimpleRadialGauge+Design.swift */; };
+		A5417A1224B882AD00C49B83 /* RadialGaugeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A0E24B882AD00C49B83 /* RadialGaugeDelegate.swift */; };
+		A5417A1424B882C600C49B83 /* SimpleRadialGaugeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A1324B882C600C49B83 /* SimpleRadialGaugeRenderer.swift */; };
+		A5417A1624B8841D00C49B83 /* CAShapeLayer+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A1524B8841D00C49B83 /* CAShapeLayer+Shadow.swift */; };
+		A5417A1824B8846300C49B83 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5417A1724B8846200C49B83 /* RotationGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,23 +51,18 @@
 		7AC020031D10B6D8766B753F /* Pods-RadialGauge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadialGauge_Tests.release.xcconfig"; path = "Target Support Files/Pods-RadialGauge_Tests/Pods-RadialGauge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		826E988E9955376AF73546EC /* Pods-RadialGauge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadialGauge_Example.debug.xcconfig"; path = "Target Support Files/Pods-RadialGauge_Example/Pods-RadialGauge_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A4ECCC9FFF9E9FFB4DB75A07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A54179E324B87B0000C49B83 /* HomeCell+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeCell+Design.swift"; sourceTree = "<group>"; };
-		A54179E424B87B0000C49B83 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		A54179E724B87B0F00C49B83 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A54179E824B87B0F00C49B83 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		A54179E924B87B0F00C49B83 /* HomeViewController+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Design.swift"; sourceTree = "<group>"; };
-		A54179ED24B87B1A00C49B83 /* RadialGaugeViewController+RadialGaugeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RadialGaugeViewController+RadialGaugeDelegate.swift"; sourceTree = "<group>"; };
-		A54179EE24B87B1A00C49B83 /* RadialGaugeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGaugeViewController.swift; sourceTree = "<group>"; };
-		A54179EF24B87B1A00C49B83 /* RadialGaugeViewController+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RadialGaugeViewController+Design.swift"; sourceTree = "<group>"; };
-		A54179F024B87B1A00C49B83 /* RadialGaugePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGaugePresenter.swift; sourceTree = "<group>"; };
 		A54179F724B87BB200C49B83 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		A54179F924B87BD500C49B83 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
-		A54179FC24B87C1800C49B83 /* RadialGaugeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGaugeViewModel.swift; sourceTree = "<group>"; };
-		A54179FE24B87C4400C49B83 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
-		A5417A0124B87C6200C49B83 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
-		A5417A0324B87C6D00C49B83 /* RadialGaugeConfigViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGaugeConfigViewModel.swift; sourceTree = "<group>"; };
-		A5417A0524B87C7300C49B83 /* AppLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLayout.swift; sourceTree = "<group>"; };
-		A5417A0724B87C7B00C49B83 /* RadialGaugeThumbViiewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGaugeThumbViiewModel.swift; sourceTree = "<group>"; };
+		A54179FE24B87C4400C49B83 /* CGFloat+Radians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Radians.swift"; sourceTree = "<group>"; };
+		A5417A0B24B882AD00C49B83 /* SimpleRadialGauge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRadialGauge.swift; sourceTree = "<group>"; };
+		A5417A0C24B882AD00C49B83 /* SimpleRadialGauge+Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimpleRadialGauge+Gesture.swift"; sourceTree = "<group>"; };
+		A5417A0D24B882AD00C49B83 /* SimpleRadialGauge+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimpleRadialGauge+Design.swift"; sourceTree = "<group>"; };
+		A5417A0E24B882AD00C49B83 /* RadialGaugeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGaugeDelegate.swift; sourceTree = "<group>"; };
+		A5417A1324B882C600C49B83 /* SimpleRadialGaugeRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRadialGaugeRenderer.swift; sourceTree = "<group>"; };
+		A5417A1524B8841D00C49B83 /* CAShapeLayer+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+Shadow.swift"; sourceTree = "<group>"; };
+		A5417A1724B8846200C49B83 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
 		A749A0F13AD12590AF9C9653 /* RadialGauge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RadialGauge.podspec; path = ../RadialGauge.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADCEF68D9708E693BB9A725A /* Pods_RadialGauge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadialGauge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BBE2F2D915BD1CFF2E2A86 /* Pods_RadialGauge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadialGauge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,9 +173,8 @@
 		A54179DF24B87AD200C49B83 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				A5417A0924B87C7E00C49B83 /* ViewModels */,
+				A5417A0A24B8820C00C49B83 /* SimpleRadialGauge */,
 				A54179E024B87AEA00C49B83 /* Home */,
-				A54179E124B87AEE00C49B83 /* RadialGauge */,
 			);
 			name = Features;
 			sourceTree = "<group>";
@@ -193,39 +182,16 @@
 		A54179E024B87AEA00C49B83 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A54179E224B87AF700C49B83 /* Cell */,
-				A54179E824B87B0F00C49B83 /* HomePresenter.swift */,
 				A54179E724B87B0F00C49B83 /* HomeViewController.swift */,
 				A54179E924B87B0F00C49B83 /* HomeViewController+Design.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
 		};
-		A54179E124B87AEE00C49B83 /* RadialGauge */ = {
-			isa = PBXGroup;
-			children = (
-				A54179F024B87B1A00C49B83 /* RadialGaugePresenter.swift */,
-				A54179EE24B87B1A00C49B83 /* RadialGaugeViewController.swift */,
-				A54179EF24B87B1A00C49B83 /* RadialGaugeViewController+Design.swift */,
-				A54179ED24B87B1A00C49B83 /* RadialGaugeViewController+RadialGaugeDelegate.swift */,
-			);
-			name = RadialGauge;
-			sourceTree = "<group>";
-		};
-		A54179E224B87AF700C49B83 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				A54179E424B87B0000C49B83 /* HomeCell.swift */,
-				A54179E324B87B0000C49B83 /* HomeCell+Design.swift */,
-			);
-			name = Cell;
-			sourceTree = "<group>";
-		};
 		A54179F524B87B4700C49B83 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				A54179F724B87BB200C49B83 /* AppCoordinator.swift */,
-				A5417A0524B87C7300C49B83 /* AppLayout.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				A54179F924B87BD500C49B83 /* AppColors.swift */,
 			);
@@ -235,7 +201,7 @@
 		A54179F624B87B4D00C49B83 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A5417A0024B87C5300C49B83 /* FoundationExtensions */,
+				A5417A1724B8846200C49B83 /* RotationGestureRecognizer.swift */,
 				A54179FB24B87BF800C49B83 /* UIExtensions */,
 			);
 			name = Core;
@@ -244,27 +210,22 @@
 		A54179FB24B87BF800C49B83 /* UIExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				A54179FE24B87C4400C49B83 /* UIView+Constraints.swift */,
+				A54179FE24B87C4400C49B83 /* CGFloat+Radians.swift */,
+				A5417A1524B8841D00C49B83 /* CAShapeLayer+Shadow.swift */,
 			);
 			name = UIExtensions;
 			sourceTree = "<group>";
 		};
-		A5417A0024B87C5300C49B83 /* FoundationExtensions */ = {
+		A5417A0A24B8820C00C49B83 /* SimpleRadialGauge */ = {
 			isa = PBXGroup;
 			children = (
-				A5417A0124B87C6200C49B83 /* Array+Extension.swift */,
+				A5417A1324B882C600C49B83 /* SimpleRadialGaugeRenderer.swift */,
+				A5417A0B24B882AD00C49B83 /* SimpleRadialGauge.swift */,
+				A5417A0D24B882AD00C49B83 /* SimpleRadialGauge+Design.swift */,
+				A5417A0C24B882AD00C49B83 /* SimpleRadialGauge+Gesture.swift */,
+				A5417A0E24B882AD00C49B83 /* RadialGaugeDelegate.swift */,
 			);
-			name = FoundationExtensions;
-			sourceTree = "<group>";
-		};
-		A5417A0924B87C7E00C49B83 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				A5417A0724B87C7B00C49B83 /* RadialGaugeThumbViiewModel.swift */,
-				A5417A0324B87C6D00C49B83 /* RadialGaugeConfigViewModel.swift */,
-				A54179FC24B87C1800C49B83 /* RadialGaugeViewModel.swift */,
-			);
-			name = ViewModels;
+			name = SimpleRadialGauge;
 			sourceTree = "<group>";
 		};
 		E4340C9EACABA69A68790D64 /* Frameworks */ = {
@@ -448,23 +409,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54179F824B87BB200C49B83 /* AppCoordinator.swift in Sources */,
-				A5417A0624B87C7400C49B83 /* AppLayout.swift in Sources */,
-				A5417A0424B87C6D00C49B83 /* RadialGaugeConfigViewModel.swift in Sources */,
-				A54179F224B87B1A00C49B83 /* RadialGaugeViewController.swift in Sources */,
 				A54179EA24B87B0F00C49B83 /* HomeViewController.swift in Sources */,
-				A54179FF24B87C4400C49B83 /* UIView+Constraints.swift in Sources */,
-				A54179E524B87B0000C49B83 /* HomeCell+Design.swift in Sources */,
-				A54179F324B87B1A00C49B83 /* RadialGaugeViewController+Design.swift in Sources */,
-				A5417A0224B87C6200C49B83 /* Array+Extension.swift in Sources */,
-				A54179EB24B87B0F00C49B83 /* HomePresenter.swift in Sources */,
-				A54179FD24B87C1800C49B83 /* RadialGaugeViewModel.swift in Sources */,
-				A54179F424B87B1A00C49B83 /* RadialGaugePresenter.swift in Sources */,
-				A5417A0824B87C7B00C49B83 /* RadialGaugeThumbViiewModel.swift in Sources */,
-				A54179E624B87B0000C49B83 /* HomeCell.swift in Sources */,
+				A5417A0F24B882AD00C49B83 /* SimpleRadialGauge.swift in Sources */,
+				A5417A1824B8846300C49B83 /* RotationGestureRecognizer.swift in Sources */,
+				A54179FF24B87C4400C49B83 /* CGFloat+Radians.swift in Sources */,
+				A5417A1024B882AD00C49B83 /* SimpleRadialGauge+Gesture.swift in Sources */,
+				A5417A1224B882AD00C49B83 /* RadialGaugeDelegate.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				A5417A1124B882AD00C49B83 /* SimpleRadialGauge+Design.swift in Sources */,
 				A54179FA24B87BD500C49B83 /* AppColors.swift in Sources */,
+				A5417A1424B882C600C49B83 /* SimpleRadialGaugeRenderer.swift in Sources */,
 				A54179EC24B87B0F00C49B83 /* HomeViewController+Design.swift in Sources */,
-				A54179F124B87B1A00C49B83 /* RadialGaugeViewController+RadialGaugeDelegate.swift in Sources */,
+				A5417A1624B8841D00C49B83 /* CAShapeLayer+Shadow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
