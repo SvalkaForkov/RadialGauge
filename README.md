@@ -22,7 +22,7 @@ pod 'RadialGauge'
 
 ## Author
 
-blabas, bozidar.labas@five.agency
+Five Agency
 
 ## License
 
