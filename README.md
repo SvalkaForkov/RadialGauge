@@ -1,4 +1,4 @@
-Radial Gauge is a custom UI component that consists of five layers. First, let’s break down the Radial Gauge in all of these five layers:
+**Radial Gauge** is a custom UI component that consists of five layers. First, let’s break down the Radial Gauge in all of these five layers:
 
 1. High thumb layer - Used for sliding and changing value.
 2. Low thumb layer - Used for sliding and changing value.
@@ -11,6 +11,8 @@ Radial Gauge is a custom UI component that consists of five layers. First, let�
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+![Example](Images/example.gif)
 
 ## Installation
 
