@@ -97,7 +97,7 @@ Radial Gauge follows these rules:
 4. The maximum value of the radial gauge will be a greater maximum value of both thumbs
 5. The minimum value of the radial gauge will be a smaller minimum value of both thumbs
 
-As mentioned above one thumb cannot overlap another thumb. To prevent this, Radial Gauge has deadband property. This property defines the maximum distance between two thumbs. If this distance is reached then one thumb pushes another thumb. This can be disabled using enableDualMovement() function call.
+One thumb cannot overlap another thumb. To prevent this, Radial Gauge has deadband property. This property defines the maximum distance between two thumbs. If this distance is reached then one thumb pushes another thumb. This can be disabled using enableDualMovement() function call.
 
 ```
 // Set low thumb
