@@ -1,0 +1,6 @@
+framework module RadialGauge {
+  umbrella header "RadialGauge-umbrella.h"
+
+  export *
+  module * { export * }
+}

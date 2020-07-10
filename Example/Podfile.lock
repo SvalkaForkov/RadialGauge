@@ -1,0 +1,16 @@
+PODS:
+  - RadialGauge (0.1.0)
+
+DEPENDENCIES:
+  - RadialGauge (from `../`)
+
+EXTERNAL SOURCES:
+  RadialGauge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RadialGauge: 0b5675839eee95a8cc2685c25bed7744d5b3224f
+
+PODFILE CHECKSUM: 1ed078218fb17b367bb6f798410bbd8fd4cb20a9
+
+COCOAPODS: 1.8.4

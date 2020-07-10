@@ -1,0 +1,22 @@
+{
+  "name": "RadialGauge",
+  "version": "0.1.0",
+  "summary": "A short description of RadialGauge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/blabas/RadialGauge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "blabas": "bozidar.labas@five.agency"
+  },
+  "source": {
+    "git": "https://github.com/blabas/RadialGauge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RadialGauge/Classes/**/*"
+}

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C6F523EE54245A9DC1B9983E9BC977 /* Pods-RadialGauge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B26B74D01244A89BD784A9CC34D1B8A3 /* Pods-RadialGauge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F80D9F40D332CA4054F256F05F8597 /* Pods-RadialGauge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E73247C265A6FA3FF0B549D2DE8B04E3 /* Pods-RadialGauge_Example-dummy.m */; };
+		75078D91B473478060F639725EDA070C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A542299530FAAFEAA08FBEE0D108BC /* ReplaceMe.swift */; };
+		774FADECC5A7E32FEE1F04F34063785F /* Pods-RadialGauge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB07CFF578E974878D401B926DC1747 /* Pods-RadialGauge_Tests-dummy.m */; };
+		9270CE62707EACF6995BCC0BD51B5A8A /* Pods-RadialGauge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBCAD233DF9153DC70444E5962CD6AD /* Pods-RadialGauge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9B262FAA6FC70BB84FAC6B652C1ABA /* RadialGauge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF97C239C6D82BD3577BEA0370124A7 /* RadialGauge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA57A11E1572BEF0E013FDC653C5942F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BD87975AD1BD283070F70D94FA277239 /* RadialGauge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ACC45BFEC417C6DE30860718FB1950 /* RadialGauge-dummy.m */; };
+		D04A8D7901F72FDFD790C4ABC9843A78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F5890E9B8C706CCD3CD11B05864B1163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2105B6AADA7E4AE0CAC5F72C1AF09088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1620AE7599D16E85B3BA8F1D46DB3DB6;
+			remoteInfo = RadialGauge;
+		};
+		96702507EDF5BEE7AD8B9981C065D667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6CC1BDDD0D83F0FB49772AE9F49A47;
+			remoteInfo = "Pods-RadialGauge_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0141113BC6A726DE36B31DA1C890F6BE /* RadialGauge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RadialGauge.framework; path = RadialGauge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A542299530FAAFEAA08FBEE0D108BC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RadialGauge/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0373578D039EFD5D8580AE93017974EA /* Pods-RadialGauge_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadialGauge_Tests-Info.plist"; sourceTree = "<group>"; };
+		29A7900B5DC12CA2D267BD892C30FD9A /* Pods-RadialGauge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RadialGauge_Tests.modulemap"; sourceTree = "<group>"; };
+		2BF97C239C6D82BD3577BEA0370124A7 /* RadialGauge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadialGauge-umbrella.h"; sourceTree = "<group>"; };
+		31455B50A0D65318CC130D5F2EC27E2B /* RadialGauge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RadialGauge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35AF1040D44AD2AA2A0F7DC9C3E0E9D9 /* RadialGauge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RadialGauge.modulemap; sourceTree = "<group>"; };
+		3B508E48CC7DC2CEEE8C565D09D18E5F /* Pods-RadialGauge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadialGauge_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4DBEE1B890104A13AE92E3FB21A8BA82 /* Pods_RadialGauge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RadialGauge_Tests.framework; path = "Pods-RadialGauge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638452E5719133A3EAFEF8003CA988D4 /* Pods-RadialGauge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadialGauge_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69F2B59A328CA88BD046F5E1B2ABB121 /* Pods-RadialGauge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadialGauge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		706934C91FC9909DB681DD9EE643872E /* Pods-RadialGauge_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadialGauge_Example-Info.plist"; sourceTree = "<group>"; };
+		82ACC45BFEC417C6DE30860718FB1950 /* RadialGauge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RadialGauge-dummy.m"; sourceTree = "<group>"; };
+		91D3D391269D942262C0B307BD7AD50E /* RadialGauge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RadialGauge.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38357FA09969DB708A306A8FA7404C9 /* Pods-RadialGauge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadialGauge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAE3D3861F7429195F81F34AAB0D25B8 /* Pods-RadialGauge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadialGauge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0CADC6428020015BB1E44CB87BF9598 /* Pods-RadialGauge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RadialGauge_Example.modulemap"; sourceTree = "<group>"; };
+		B26B74D01244A89BD784A9CC34D1B8A3 /* Pods-RadialGauge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadialGauge_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA146397C2BC4E6D4CFF400362B2E6EE /* RadialGauge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RadialGauge-Info.plist"; sourceTree = "<group>"; };
+		BFE0A6856530D4030528504760F6CFC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C222FF1568B96EAB8EB4C36446C413EE /* Pods-RadialGauge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadialGauge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C44E31FABB0E891A635891F67BF54F3F /* Pods-RadialGauge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadialGauge_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CCF3268C3A1F1BA103C77779818987F5 /* Pods_RadialGauge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RadialGauge_Example.framework; path = "Pods-RadialGauge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFB07970410C87373E2DE5D5D9FECFC /* RadialGauge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadialGauge-prefix.pch"; sourceTree = "<group>"; };
+		DBB07CFF578E974878D401B926DC1747 /* Pods-RadialGauge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadialGauge_Tests-dummy.m"; sourceTree = "<group>"; };
+		DFBCAD233DF9153DC70444E5962CD6AD /* Pods-RadialGauge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadialGauge_Example-umbrella.h"; sourceTree = "<group>"; };
+		E73247C265A6FA3FF0B549D2DE8B04E3 /* Pods-RadialGauge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadialGauge_Example-dummy.m"; sourceTree = "<group>"; };
+		EFEBDCC87E305AC9A1947F8EDB3AA7FF /* Pods-RadialGauge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RadialGauge_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F33DA28372AEEFC4F9B88DE7F965C74E /* Pods-RadialGauge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadialGauge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA738B6AA063160CBD207F94F01C7B4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3570042FBFA92F0070BDF96CA0500D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A8D7901F72FDFD790C4ABC9843A78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687B468B20F2C81E097805A733F0C906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA57A11E1572BEF0E013FDC653C5942F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF37AE252D63591A14F28E60339C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5890E9B8C706CCD3CD11B05864B1163 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427E23A23370F60F01B926C2A24AA014 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35AF1040D44AD2AA2A0F7DC9C3E0E9D9 /* RadialGauge.modulemap */,
+				91D3D391269D942262C0B307BD7AD50E /* RadialGauge.xcconfig */,
+				82ACC45BFEC417C6DE30860718FB1950 /* RadialGauge-dummy.m */,
+				BA146397C2BC4E6D4CFF400362B2E6EE /* RadialGauge-Info.plist */,
+				CCFB07970410C87373E2DE5D5D9FECFC /* RadialGauge-prefix.pch */,
+				2BF97C239C6D82BD3577BEA0370124A7 /* RadialGauge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RadialGauge";
+			sourceTree = "<group>";
+		};
+		49929C72AF4D4256942CD976BCD67358 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4B619DCFDF5EBFEB6E996A37960778C /* RadialGauge */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		73B899ACAFF0F1C7E810AE40FD572639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3268C3A1F1BA103C77779818987F5 /* Pods_RadialGauge_Example.framework */,
+				4DBEE1B890104A13AE92E3FB21A8BA82 /* Pods_RadialGauge_Tests.framework */,
+				0141113BC6A726DE36B31DA1C890F6BE /* RadialGauge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97E93282F7FF030DE4835F0A87ECCF6E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BFE0A6856530D4030528504760F6CFC1 /* LICENSE */,
+				31455B50A0D65318CC130D5F2EC27E2B /* RadialGauge.podspec */,
+				FA738B6AA063160CBD207F94F01C7B4F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B4B619DCFDF5EBFEB6E996A37960778C /* RadialGauge */ = {
+			isa = PBXGroup;
+			children = (
+				02A542299530FAAFEAA08FBEE0D108BC /* ReplaceMe.swift */,
+				97E93282F7FF030DE4835F0A87ECCF6E /* Pod */,
+				427E23A23370F60F01B926C2A24AA014 /* Support Files */,
+			);
+			name = RadialGauge;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B6670D8739FA373A55D6D24367ECF1BA /* Pods-RadialGauge_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B0CADC6428020015BB1E44CB87BF9598 /* Pods-RadialGauge_Example.modulemap */,
+				AAE3D3861F7429195F81F34AAB0D25B8 /* Pods-RadialGauge_Example-acknowledgements.markdown */,
+				F33DA28372AEEFC4F9B88DE7F965C74E /* Pods-RadialGauge_Example-acknowledgements.plist */,
+				E73247C265A6FA3FF0B549D2DE8B04E3 /* Pods-RadialGauge_Example-dummy.m */,
+				EFEBDCC87E305AC9A1947F8EDB3AA7FF /* Pods-RadialGauge_Example-frameworks.sh */,
+				706934C91FC9909DB681DD9EE643872E /* Pods-RadialGauge_Example-Info.plist */,
+				DFBCAD233DF9153DC70444E5962CD6AD /* Pods-RadialGauge_Example-umbrella.h */,
+				C44E31FABB0E891A635891F67BF54F3F /* Pods-RadialGauge_Example.debug.xcconfig */,
+				3B508E48CC7DC2CEEE8C565D09D18E5F /* Pods-RadialGauge_Example.release.xcconfig */,
+			);
+			name = "Pods-RadialGauge_Example";
+			path = "Target Support Files/Pods-RadialGauge_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE8439C7974A73866F259A054AE9788B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6670D8739FA373A55D6D24367ECF1BA /* Pods-RadialGauge_Example */,
+				DDE015E385ADE4586540764CAEB80A3A /* Pods-RadialGauge_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				49929C72AF4D4256942CD976BCD67358 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				73B899ACAFF0F1C7E810AE40FD572639 /* Products */,
+				CE8439C7974A73866F259A054AE9788B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE015E385ADE4586540764CAEB80A3A /* Pods-RadialGauge_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				29A7900B5DC12CA2D267BD892C30FD9A /* Pods-RadialGauge_Tests.modulemap */,
+				A38357FA09969DB708A306A8FA7404C9 /* Pods-RadialGauge_Tests-acknowledgements.markdown */,
+				C222FF1568B96EAB8EB4C36446C413EE /* Pods-RadialGauge_Tests-acknowledgements.plist */,
+				DBB07CFF578E974878D401B926DC1747 /* Pods-RadialGauge_Tests-dummy.m */,
+				0373578D039EFD5D8580AE93017974EA /* Pods-RadialGauge_Tests-Info.plist */,
+				B26B74D01244A89BD784A9CC34D1B8A3 /* Pods-RadialGauge_Tests-umbrella.h */,
+				69F2B59A328CA88BD046F5E1B2ABB121 /* Pods-RadialGauge_Tests.debug.xcconfig */,
+				638452E5719133A3EAFEF8003CA988D4 /* Pods-RadialGauge_Tests.release.xcconfig */,
+			);
+			name = "Pods-RadialGauge_Tests";
+			path = "Target Support Files/Pods-RadialGauge_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92EFBC0E86CF55FFF1C3F0A6FDCE2A7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9270CE62707EACF6995BCC0BD51B5A8A /* Pods-RadialGauge_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDDB88D8EFD4CC60BF2AEF276728891 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C6F523EE54245A9DC1B9983E9BC977 /* Pods-RadialGauge_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F79CFA6B7E045C673910BE19186168F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9B262FAA6FC70BB84FAC6B652C1ABA /* RadialGauge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1620AE7599D16E85B3BA8F1D46DB3DB6 /* RadialGauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314FF59517E14193816C3EAD8F26980A /* Build configuration list for PBXNativeTarget "RadialGauge" */;
+			buildPhases = (
+				F79CFA6B7E045C673910BE19186168F4 /* Headers */,
+				4D711EE873E69871B58EAADEAF999C42 /* Sources */,
+				687B468B20F2C81E097805A733F0C906 /* Frameworks */,
+				C17701E7606F743F0CCE05964279AEC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadialGauge;
+			productName = RadialGauge;
+			productReference = 0141113BC6A726DE36B31DA1C890F6BE /* RadialGauge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A6CC1BDDD0D83F0FB49772AE9F49A47 /* Pods-RadialGauge_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEB921841F970DCA71F6A99E12C9781 /* Build configuration list for PBXNativeTarget "Pods-RadialGauge_Example" */;
+			buildPhases = (
+				92EFBC0E86CF55FFF1C3F0A6FDCE2A7C /* Headers */,
+				32AC2E67F6DFA0763F6891EDAD693F17 /* Sources */,
+				9EAF37AE252D63591A14F28E60339C5F /* Frameworks */,
+				C1B0B236E1DA48D7B86C306012FBF2E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC1EE57BFE20254C25C855FE6DF25A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-RadialGauge_Example";
+			productName = "Pods-RadialGauge_Example";
+			productReference = CCF3268C3A1F1BA103C77779818987F5 /* Pods_RadialGauge_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EF57599E6C2702BC64D7947F1FE554A /* Pods-RadialGauge_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 766C80473C7601C0BF50C2631F3DAA9D /* Build configuration list for PBXNativeTarget "Pods-RadialGauge_Tests" */;
+			buildPhases = (
+				BFDDB88D8EFD4CC60BF2AEF276728891 /* Headers */,
+				9A17B6C5748DF66FE7E42085A451E4AA /* Sources */,
+				3570042FBFA92F0070BDF96CA0500D16 /* Frameworks */,
+				C19A6DF795A3AA6BDACD75D4AB878DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC82D7A31226AE792D6FF79B2C85E4FB /* PBXTargetDependency */,
+			);
+			name = "Pods-RadialGauge_Tests";
+			productName = "Pods-RadialGauge_Tests";
+			productReference = 4DBEE1B890104A13AE92E3FB21A8BA82 /* Pods_RadialGauge_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 73B899ACAFF0F1C7E810AE40FD572639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6CC1BDDD0D83F0FB49772AE9F49A47 /* Pods-RadialGauge_Example */,
+				1EF57599E6C2702BC64D7947F1FE554A /* Pods-RadialGauge_Tests */,
+				1620AE7599D16E85B3BA8F1D46DB3DB6 /* RadialGauge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C17701E7606F743F0CCE05964279AEC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19A6DF795A3AA6BDACD75D4AB878DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B0B236E1DA48D7B86C306012FBF2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32AC2E67F6DFA0763F6891EDAD693F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F80D9F40D332CA4054F256F05F8597 /* Pods-RadialGauge_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D711EE873E69871B58EAADEAF999C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD87975AD1BD283070F70D94FA277239 /* RadialGauge-dummy.m in Sources */,
+				75078D91B473478060F639725EDA070C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A17B6C5748DF66FE7E42085A451E4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774FADECC5A7E32FEE1F04F34063785F /* Pods-RadialGauge_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC82D7A31226AE792D6FF79B2C85E4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RadialGauge_Example";
+			target = 1A6CC1BDDD0D83F0FB49772AE9F49A47 /* Pods-RadialGauge_Example */;
+			targetProxy = 96702507EDF5BEE7AD8B9981C065D667 /* PBXContainerItemProxy */;
+		};
+		DCC1EE57BFE20254C25C855FE6DF25A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RadialGauge;
+			target = 1620AE7599D16E85B3BA8F1D46DB3DB6 /* RadialGauge */;
+			targetProxy = 2105B6AADA7E4AE0CAC5F72C1AF09088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C44ACC3604160EE9060EBD0D6382380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F2B59A328CA88BD046F5E1B2ABB121 /* Pods-RadialGauge_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadialGauge_Tests/Pods-RadialGauge_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadialGauge_Tests/Pods-RadialGauge_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24AF6F96EA19A8D0E87EC948C8322047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B508E48CC7DC2CEEE8C565D09D18E5F /* Pods-RadialGauge_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadialGauge_Example/Pods-RadialGauge_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadialGauge_Example/Pods-RadialGauge_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3550EA9E2EB01E18F8DBDE9AD78154E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D3D391269D942262C0B307BD7AD50E /* RadialGauge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RadialGauge/RadialGauge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RadialGauge/RadialGauge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RadialGauge/RadialGauge.modulemap";
+				PRODUCT_MODULE_NAME = RadialGauge;
+				PRODUCT_NAME = RadialGauge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A0218AECCCBE6F2F472099D569B887E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D3D391269D942262C0B307BD7AD50E /* RadialGauge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RadialGauge/RadialGauge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RadialGauge/RadialGauge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RadialGauge/RadialGauge.modulemap";
+				PRODUCT_MODULE_NAME = RadialGauge;
+				PRODUCT_NAME = RadialGauge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		905F127853CBFDFA6D57BAFD55BF7B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44E31FABB0E891A635891F67BF54F3F /* Pods-RadialGauge_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadialGauge_Example/Pods-RadialGauge_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadialGauge_Example/Pods-RadialGauge_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF836DBB272378CA47F700D52C098A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638452E5719133A3EAFEF8003CA988D4 /* Pods-RadialGauge_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadialGauge_Tests/Pods-RadialGauge_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadialGauge_Tests/Pods-RadialGauge_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314FF59517E14193816C3EAD8F26980A /* Build configuration list for PBXNativeTarget "RadialGauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3550EA9E2EB01E18F8DBDE9AD78154E4 /* Debug */,
+				6A0218AECCCBE6F2F472099D569B887E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEB921841F970DCA71F6A99E12C9781 /* Build configuration list for PBXNativeTarget "Pods-RadialGauge_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905F127853CBFDFA6D57BAFD55BF7B6F /* Debug */,
+				24AF6F96EA19A8D0E87EC948C8322047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766C80473C7601C0BF50C2631F3DAA9D /* Build configuration list for PBXNativeTarget "Pods-RadialGauge_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C44ACC3604160EE9060EBD0D6382380 /* Debug */,
+				AF836DBB272378CA47F700D52C098A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
