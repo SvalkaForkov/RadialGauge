@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RadialGauge_Example' do
+  pod 'RadialGauge', :path => '../'
+
+  target 'RadialGauge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
