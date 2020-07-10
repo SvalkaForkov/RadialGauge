@@ -38,11 +38,13 @@ Single-mode is a Radial Gauge with one thumb to control the slider.
 ![Single-mode RadialGauge](Images/image_1.png)
 
 **Dual-mode**
+
 Dual-mode is a Radial Gauge with two thumbs to control the slider.
 
 ![Dual-mode RadialGauge](Images/image_2.png)
 
 **Circular progress bar**
+
 Circular progress bar is a Radial Gauge without thumbs. This can be useful for showing progress without user interaction.
 
 ![Circular progress bar](Images/image_3.png)
